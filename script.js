@@ -11,18 +11,18 @@
      CONFIGURATION — à adapter avec vos coordonnées réelles
      ----------------------------------------------------- */
   const CONFIG = {
-    whatsappNumber: "33612345678", // format international, sans "+" ni "00"
-    phoneDisplay: "06 12 34 56 78",
+    whatsappNumber: "33768309219", // format international, sans "+" ni "00"
+    phoneDisplay: "07 68 30 92 19",
   };
 
   // Tarifs indicatifs par trajet (à ajuster selon vos prix réels)
   const ROUTE_PRICES = {
-    "nanterre-cdg":        { label: "Nanterre ↔ Aéroport CDG",        price: 65 },
-    "nanterre-orly":       { label: "Nanterre ↔ Aéroport Orly",       price: 55 },
-    "defense-cdg":         { label: "La Défense ↔ Aéroport CDG",      price: 70 },
-    "defense-orly":        { label: "La Défense ↔ Aéroport Orly",     price: 60 },
-    "paris-cdg":           { label: "Paris ↔ Aéroport CDG",           price: 75 },
-    "paris-orly":          { label: "Paris ↔ Aéroport Orly",          price: 65 },
+    "nanterre-cdg":        { label: "Nanterre ↔ Aéroport CDG",        price: 50 },
+    "nanterre-orly":       { label: "Nanterre ↔ Aéroport Orly",       price: 40 },
+    "defense-cdg":         { label: "La Défense ↔ Aéroport CDG",      price: 45 },
+    "defense-orly":        { label: "La Défense ↔ Aéroport Orly",     price: 35 },
+    "paris-cdg":           { label: "Paris ↔ Aéroport CDG",           price: 40 },
+    "paris-orly":          { label: "Paris ↔ Aéroport Orly",          price: 30 },
     "idf-beauvais":        { label: "Île-de-France ↔ Aéroport Beauvais", price: 120 },
     "garedunord-defense":  { label: "Gare du Nord ↔ La Défense",      price: 35 },
     "garedelyon-defense":  { label: "Gare de Lyon ↔ La Défense",      price: 35 },
